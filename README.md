@@ -1,9 +1,16 @@
 # gnt
 
+Java: 11 설치
+
+
 ## mongodb 세팅
-1. 6.0 버전 설치한다
-   * windows: https://khj93.tistory.com/entry/MongoDB-Window%EC%97%90-MongoDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
-   * macos:
+6.0 버전 설치
+* windows:
+  * https://khj93.tistory.com/entry/MongoDB-Window%EC%97%90-MongoDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+  * mongodb compass도 설치할 것
+  * compass 상에서 gnt db를 만들고, topics collection을 만든다
+
+* macos:
 ```
 brew tap mongodb/brew
 brew install mongodb-community@6.0
