@@ -2,7 +2,7 @@
 
 ## mongodb 세팅
 1. 6.0 버전 설치한다
-   * windows: https://khj93.tistory.com/entry/MongoDB-Window%EC%97%90-MongoDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+   * windows: https://khj93.tistory.com/entry/MongoDB-Window%EC%97%90-MongoDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0, mongodb compass도 설치할 것
    * macos:
 ```
 brew tap mongodb/brew
