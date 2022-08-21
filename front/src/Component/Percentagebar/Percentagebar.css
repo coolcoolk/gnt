@@ -1,0 +1,23 @@
+.wholebox {
+    width: 80%;
+    height: 33px;
+    background-color: aqua;
+    display: flex;
+    position: relative
+}
+
+.wholebox .agreedbox {
+    height: 33px;
+    width: 64%;
+    left: 0px;
+    background-color: #D6E1FD;
+    position: absolute;
+}
+
+.wholebox .disagreedbox {
+    height: 100%;
+    width: 36%;
+    right: 0px;
+    background-color: #F5D5E8;
+    position: absolute;
+}
