@@ -1,0 +1,31 @@
+.countdown-timer {
+    width: 90px;
+    height: 31px;
+    background-color: #666666;
+    border-radius: 7px;
+
+    font-family: 'Oswalds';
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.countdown-timer-description {
+    position: absolute;
+    top: 0;
+
+}
+
+.countdown-timer-time {
+    position: absolute;
+    display: flex;
+    bottom:0
+}
+
+.two-numbers {
+    width: 2ch;
+}
