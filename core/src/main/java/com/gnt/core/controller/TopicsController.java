@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("topics")
@@ -19,6 +20,11 @@ public class TopicsController {
     @GetMapping
     public List<Topic> getTopics() {
         return topicService.getAllTopics();
+    }
+
+    @GetMapping
+    public Map topicInfo() {
+        return topicService.
     }
 
 }
