@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("admin")
 @RequiredArgsConstructor
 public class AdminController {
-    // Github test!!!!!
+    // Github test!!!!!!
 
     private final TopicService topicService;
 
