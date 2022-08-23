@@ -13,8 +13,8 @@ import java.util.Map;
 public class Topic {
 
     @Id
-    private String id; // 이름
-
+    private String id;
+    private String name;
     private String rule_description;
     private Date create_timestamp;
     private Date bet_end_timestamp;

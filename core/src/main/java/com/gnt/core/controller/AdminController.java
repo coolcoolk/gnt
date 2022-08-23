@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("admin")
 @RequiredArgsConstructor
 public class AdminController {
-    // Github test!!!!!!
 
     private final TopicService topicService;
 
@@ -28,6 +27,9 @@ public class AdminController {
 
     @PostMapping("topic/delete")
     public String deleteTopic(@RequestBody String id){
+        System.out.println(id.getClass());
+        System.out.println(id);
+        topicService.deleteTopic(id);
         return "success";
     }
 
