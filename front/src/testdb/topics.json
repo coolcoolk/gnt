@@ -1,0 +1,27 @@
+{
+    "topics": [
+        {"id" : 1,
+        "name" : "윤석열 지지율",
+        "rule_description" : "어느어느 여론조사의 결과를 참고하며",
+        "created_timestamp" : "2022-08-25 11:11:11",
+        "bet_end_timestamp" : 1661223232,
+        "result_open_tiemstamp" : 1661224232,
+        "tags" : ["윤석열","정치"],
+        "bet_info" : [{"name" : "yes", "coin" : 102, "participants" : 12}, {"name" : "no", "coin" : 182, "participants" : 21}],
+        "result": null,
+        "result_canceled": null,
+        "result_description": null},
+
+        {"id" : 2,
+        "name" : "문재인 지지율",
+        "rule_description" : "어느어느 여론조사의 결과를 참고하며",
+        "created_timestamp" : "2022-08-26 10:10:10",
+        "bet_end_timestamp" : 1661223232,
+        "result_open_tiemstamp" : 1661224232,
+        "tags" : ["문재인","정치"],
+        "bet_info" : [{"name" : "yes", "coin" : 123, "participants" : 8}, {"name" : "no", "coin" : 1802, "participants" : 201}],
+        "result": null,
+        "result_canceled": null,
+        "result_description": null}
+    ]
+}
