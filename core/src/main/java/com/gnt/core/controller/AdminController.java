@@ -14,9 +14,20 @@ public class AdminController {
 
     private final TopicService topicService;
 
-    @PostMapping("topics")
+    @PostMapping("topic/add")
     public String createTopic(@RequestBody Topic topic) {
         topicService.createTopic(topic);
+        return "success";
+    }
+
+    @PostMapping("topic/change")
+    public String changeTopic(@RequestBody Topic topic){
+        topicService.changeTopic(topic);
+        return "success";
+    }
+
+    @PostMapping("topic/delete")
+    public String deleteTopic(@RequestBody String id){
         return "success";
     }
 

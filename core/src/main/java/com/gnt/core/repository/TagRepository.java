@@ -4,5 +4,4 @@ import com.gnt.core.domain.Tag;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface TagRepository extends MongoRepository<Tag, String> {
-    public Tag findByName(String name);
 }

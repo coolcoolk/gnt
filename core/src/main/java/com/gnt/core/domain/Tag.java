@@ -13,9 +13,7 @@ import java.util.Date;
 public class Tag {
 
     @Id
-    private String id;
-    @Indexed(unique = true)
-    private String name;
-    private Integer numberOfTopics;
+    private String id; // 태그 이름
 
+    private Integer coin_sum; // 태그에 배팅된 코인 총량
 }
