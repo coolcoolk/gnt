@@ -4,15 +4,15 @@ import './Percentagebar.css';
 import testtopicsdata from "../../testdb/topics.json"
 
 export default function Percentagebar() {
-    console.log(testtopicsdata)
+    console.log(testtopicsdata.topics[0].bet_info[0].coin)
     return(
 
         <div className='wholebox'>
             <div className='agreedbox'>
-                64%
+                {(testtopicsdata.topics[0].bet_info[0].coin/(testtopicsdata.topics[0].bet_info[0].coin+testtopicsdata.topics[0].bet_info[1].coin)).toFixed(2)*100}%
             </div>
             <div className='disagreedbox'>
-                36%
+                {(testtopicsdata.topics[0].bet_info[1].coin/(testtopicsdata.topics[0].bet_info[0].coin+testtopicsdata.topics[0].bet_info[1].coin)).toFixed(2)*100}%
             </div>
         </div>
     )

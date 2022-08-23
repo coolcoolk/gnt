@@ -17,10 +17,13 @@ export default function MarketDiscoveryTopicContainer() {
     //   fetchData();
     // },[])
 
+    // const nthTopic = 0
+
     return(
         <div className="container each-topic">
         {testtopicsdata.topics.map((id) => (
           <div className= "container topic-box" key={id.id}>
+            <Link to={`/market/${id.id}`}>
             <div className="topic-name">{id.name}</div>
             <div className="topic-tags">
               <div className="topic-tag-toggle">{id.tags[0]}</div>
@@ -31,6 +34,7 @@ export default function MarketDiscoveryTopicContainer() {
             <div className='total-coins'>coin emoji{id.bet_info[0].coin+id.bet_info[1].coin}</div>
             <div className='total-participants'>people emoji{id.bet_info[0].participants+id.bet_info[1].participants}</div>
             <div>{id.rule_discription}</div>
+            </Link>
           </div>
         ))}
         </div>
