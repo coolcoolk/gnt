@@ -1,6 +1,6 @@
 import React, { Component, Profiler } from 'react';
 import './App.css';
-import Navbar from './Component/Navbar/Navbar';
+import Navbar from './Components/Navbar/Navbar';
 import Discovery from './Pages/Market/Discovery';
 import Ongoing from './Pages/Ongoing';
 import axios from 'axios'

@@ -3,8 +3,8 @@ import axios from 'axios';
 import MarketDiscoveryTopicContainer from './MarketComponent/MarketDiscoveryTopicContainer';
 // testdata
 import testtopicsdata from "../../testdb/topics.json"
-import CountdownTimer from '../../Component/CountdownTimer/CountdownTimer';
-import Percentagebar from '../../Component/Percentagebar/Percentagebar';
+import CountdownTimer from '../../Components/MarketComponents/CountdownTimer/CountdownTimer';
+import Percentagebar from '../../Components/MarketComponents/Percentagebar/Percentagebar';
 import { Route } from 'react-router-dom';
 
 export default function Discovery() {

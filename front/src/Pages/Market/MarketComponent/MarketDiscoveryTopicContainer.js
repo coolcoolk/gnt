@@ -1,7 +1,7 @@
 import React, { Component, useEffect, useState } from 'react';
 import axios from 'axios';
-import CountdownTimer from '../../../Component/CountdownTimer/CountdownTimer';
-import Percentagebar from '../../../Component/Percentagebar/Percentagebar';
+import CountdownTimer from '../../../Components/MarketComponents/CountdownTimer/CountdownTimer';
+import Percentagebar from '../../../Components/MarketComponents/Percentagebar/Percentagebar';
 import { Link } from 'react-router-dom';
 //testdata
 import testtopicsdata from "../../../testdb/topics.json"

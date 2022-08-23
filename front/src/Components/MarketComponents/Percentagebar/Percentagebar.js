@@ -1,7 +1,7 @@
 import React from 'react';
 import './Percentagebar.css';
 //testdata
-import testtopicsdata from "../../testdb/topics.json"
+import testtopicsdata from "../../../testdb/topics.json"
 
 export default function Percentagebar() {
     console.log(testtopicsdata.topics[0].bet_info[0].coin)
